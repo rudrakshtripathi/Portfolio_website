@@ -270,25 +270,25 @@ export const commands: { [key: string]: () => React.ReactNode } = {
           <div className="space-y-2 text-white text-sm">
             <div className="flex items-center">
               <Mail className="w-4 h-4 mr-2" />
-              <a href="mailto:rudraksh@example.com" className="hover:text-[#00FF00] transition-colors text-white">
+              <a href="mailto:work.rudrakshtripathi@gmail.com" className="hover:text-[#00FF00] transition-colors text-white">
                 work.rudrakshtripathi@gmail.com
               </a>
             </div>
             <div className="flex items-center">
               <span className="w-4 h-4 mr-2">💼</span>
-              <a href="#" className="hover:text-[#00FF00] transition-colors text-white">
+              <a href="https://www.linkedin.com/in/rudraksh--tripathi/" target="_blank" rel="noopener noreferrer" className="hover:text-[#00FF00] transition-colors text-white">
                 https://www.linkedin.com/in/rudraksh--tripathi/
               </a>
             </div>
             <div className="flex items-center">
               <span className="w-4 h-4 mr-2">🐱</span>
-              <a href="#" className="hover:text-[#00FF00] transition-colors text-white">
+              <a href="https://github.com/rudrakshtripathi" target="_blank" rel="noopener noreferrer" className="hover:text-[#00FF00] transition-colors text-white">
                 https://github.com/rudrakshtripathi
               </a>
             </div>
             <div className="flex items-center">
               <span className="w-4 h-4 mr-2">🌐</span>
-              <a href="#" className="hover:text-[#00FF00] transition-colors text-white">
+              <a href="https://rudraksh-portfolio.dev" target="_blank" rel="noopener noreferrer" className="hover:text-[#00FF00] transition-colors text-white">
                 rudraksh-portfolio.dev
               </a>
             </div>
