@@ -288,7 +288,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             </div>
             <div className="flex items-center">
               <span className="w-4 h-4 mr-2">🌐</span>
-              <a href="https://rudraksh-portfolio.dev" target="_blank" rel="noopener noreferrer" className="hover:text-[#00FF00] transition-colors text-white">
+              <a href="https://portfolio-website-woad-tau-82.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-[#00FF00] transition-colors text-white">
                 rudraksh-portfolio.dev
               </a>
             </div>
