@@ -133,7 +133,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             Tech: React, TypeScript, Google Gemini API, Tailwind CSS, Netlify, GitHub Actions
           </div>
           <div className="mt-2">
-            <a href="https://studysmart-ai.netlify.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+            <a href="https://study-smart-pink.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
               🌐 Live Demo
             </a>
           </div>
@@ -147,7 +147,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             Tech: React, TypeScript, Google Gemini API, Tailwind CSS, Netlify, GitHub Actions
           </div>
           <div className="mt-2">
-            <a href="https://visionary-spaces.netlify.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+            <a href="https://visionary-spaces.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
               🌐 Live Demo
             </a>
           </div>
@@ -163,7 +163,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       Tech: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Web Audio API, Navigator Vibration API, Vercel Hosting
     </div>
     <div className="mt-2">
-      <a href="https://auracalm.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+      <a href="https://aura-calm.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
         🌐 Live Demo
       </a>
     </div>
@@ -178,7 +178,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             Tech: Python, OpenCV, NumPy
           </div>
           <div className="mt-2">
-            <a href="https://github.com/rudrakshtripathi/invisible-cloak" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+            <a href="https://github.com/rudrakshtripathi/Invisible-Cloak" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
               🔗 GitHub Repository
             </a>
           </div>
@@ -196,7 +196,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       Tech: Python, OpenAI API, SpeechRecognition, Pyttsx3, PyAutoGUI, Webbrowser, Linux Environment
     </div>
     <div className="mt-2">
-      <a href="https://github.com/rudrakshtripathi/jarvis-ai-assistant" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+      <a href="https://github.com/rudrakshtripathi/JARVIS-_VOICE-ASSINTANT" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
         🔗 GitHub Repository
       </a>
     </div>
