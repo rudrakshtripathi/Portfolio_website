@@ -159,6 +159,20 @@ export const commands: { [key: string]: () => React.ReactNode } = {
           </div>
         </div>
       </div>
+      <div className="space-y-4">
+  <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+    <div className="text-white font-medium">Jarvis – AI Voice Assistant</div>
+    <div className="text-white text-sm mt-1">
+      Personal AI-powered voice assistant capable of executing commands, answering queries, and interacting 
+      in natural language. Supports speech recognition, text-to-speech, OpenAI-powered conversations, 
+      and automating system tasks.
+    </div>
+    <div className="text-white text-xs mt-2">
+      Tech: Python, OpenAI API, SpeechRecognition, Pyttsx3, PyAutoGUI, Webbrowser, Linux Environment
+    </div>
+  </div>
+</div>
+
       <div className="text-white text-sm mt-4">
         💡 View more projects on my GitHub profile
       </div>
