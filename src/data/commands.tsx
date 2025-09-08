@@ -114,6 +114,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
     <div className="text-white text-xs mt-2">
       Tech: Next.js, TypeScript, Tailwind CSS, ShadCN UI, Supabase (PostgreSQL + Auth), Genkit + Google Gemini, Vercel/Firebase Hosting
     </div>
+    <div className="mt-2">
+      <a href="https://cyberpaste.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+        🌐 Live Demo
+      </a>
+    </div>
   </div>
 </div>
 
@@ -127,6 +132,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
           <div className="text-white text-xs mt-2">
             Tech: React, TypeScript, Google Gemini API, Tailwind CSS, Netlify, GitHub Actions
           </div>
+          <div className="mt-2">
+            <a href="https://studysmart-ai.netlify.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+              🌐 Live Demo
+            </a>
+          </div>
         </div>
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
           <div className="text-white font-medium">Visionary Spaces (Virtual Room Designer)</div>
@@ -135,6 +145,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
           </div>
           <div className="text-white text-xs mt-2">
             Tech: React, TypeScript, Google Gemini API, Tailwind CSS, Netlify, GitHub Actions
+          </div>
+          <div className="mt-2">
+            <a href="https://visionary-spaces.netlify.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+              🌐 Live Demo
+            </a>
           </div>
         </div>
         <div className="space-y-4">
@@ -147,6 +162,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
     <div className="text-white text-xs mt-2">
       Tech: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Web Audio API, Navigator Vibration API, Vercel Hosting
     </div>
+    <div className="mt-2">
+      <a href="https://auracalm.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+        🌐 Live Demo
+      </a>
+    </div>
   </div>
 </div>
 
@@ -156,6 +176,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             Real-time computer vision project using OpenCV that creates an invisibility effect by masking a specific color.           </div>
           <div className="text-white text-xs mt-2">
             Tech: Python, OpenCV, NumPy
+          </div>
+          <div className="mt-2">
+            <a href="https://github.com/rudrakshtripathi/invisible-cloak" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+              🔗 GitHub Repository
+            </a>
           </div>
         </div>
       </div>
@@ -169,6 +194,11 @@ export const commands: { [key: string]: () => React.ReactNode } = {
     </div>
     <div className="text-white text-xs mt-2">
       Tech: Python, OpenAI API, SpeechRecognition, Pyttsx3, PyAutoGUI, Webbrowser, Linux Environment
+    </div>
+    <div className="mt-2">
+      <a href="https://github.com/rudrakshtripathi/jarvis-ai-assistant" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+        🔗 GitHub Repository
+      </a>
     </div>
   </div>
 </div>
