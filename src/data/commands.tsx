@@ -115,7 +115,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       Tech: Next.js, TypeScript, Tailwind CSS, ShadCN UI, Supabase (PostgreSQL + Auth), Genkit + Google Gemini, Vercel/Firebase Hosting
     </div>
     <div className="mt-2">
-      <a href="https://cyberpaste.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
+      <a href="https://cyber-paste.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#00FF00] hover:text-white transition-colors text-xs">
         🌐 Live Demo
       </a>
     </div>
