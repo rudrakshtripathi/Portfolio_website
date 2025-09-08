@@ -137,6 +137,19 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             Tech: React, TypeScript, Google Gemini API, Tailwind CSS, Netlify, GitHub Actions
           </div>
         </div>
+        <div className="space-y-4">
+  <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+    <div className="text-white font-medium">AuraCalm – AI-Powered Stress Level Checker</div>
+    <div className="text-white text-sm mt-1">
+      Real-time stress detection app that analyzes vocal patterns to check stress levels and deliver calm.
+      Features soothing soundscapes, gentle haptics, and relaxing visuals for instant stress relief.
+    </div>
+    <div className="text-white text-xs mt-2">
+      Tech: Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Web Audio API, Navigator Vibration API, Vercel Hosting
+    </div>
+  </div>
+</div>
+
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
           <div className="text-white font-medium">Invisible Cloak (Computer Vision Project)</div>
           <div className="text-white text-sm mt-1">
