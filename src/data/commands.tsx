@@ -104,6 +104,20 @@ export const commands: { [key: string]: () => React.ReactNode } = {
         Featured Projects
       </div>
       <div className="space-y-4">
+      <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+      <div className="text-white font-medium">CyberPaste – Secure AI-Powered Pastebin</div>
+      <div className="text-white text-sm mt-1">
+      Full-stack pastebin focused on privacy and productivity. Features client-side AES-GCM encryption,
+      AI assistant for syntax fixes and complexity insights, multi-file pastes, configurable expiry/access control,
+      raw view, and a sleek cyberpunk UI with a command palette.
+    </div>
+    <div className="text-white text-xs mt-2">
+      Tech: Next.js, TypeScript, Tailwind CSS, ShadCN UI, Supabase (PostgreSQL + Auth), Genkit + Google Gemini, Vercel/Firebase Hosting
+    </div>
+  </div>
+</div>
+
+      <div className="space-y-4">
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
           <div className="text-white font-medium">Study Smart (Student Assistant App)</div>
           <div className="text-white text-sm mt-1">
