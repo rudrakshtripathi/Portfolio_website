@@ -217,6 +217,20 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       </div>
       <div className="space-y-4">
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+  <div className="flex justify-between items-start mb-2">
+    <div className="text-white font-medium">Top 10 Nationwide Hackathon – Visionary-Spaces</div>
+    <div className="text-white text-sm">August 2024</div>
+  </div>
+  <div className="text-white text-sm mb-2">Reelcode Project-A-Thons</div>
+  <div className="text-white text-sm space-y-1">
+    <div>• Secured a place in the Top 10 among nationwide participants with the project "Visionary-Spaces".</div>
+    <div>• Overcame challenges like brainstorming innovative ideas, late-night debugging, and refining the final presentation.</div>
+    <div>• Built a solution combining creativity and technology to design impactful digital spaces.</div>
+    <div>• Gained valuable experience by competing with talented peers and learning from diverse approaches.</div>
+  </div>
+</div>
+
+        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
           <div className="flex justify-between items-start mb-2">
             <div className="text-white font-medium">Campus Ambassador</div>
             <div className="text-white text-sm">July 2024 - April 2025</div>
