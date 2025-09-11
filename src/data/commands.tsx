@@ -35,8 +35,8 @@ export const commands: { [key: string]: () => React.ReactNode } = {
         About Rudraksh Tripathi
       </div>
       <div className="space-y-2 text-white">
-        <p>Hi, I'm Rudraksh Tripathi, an Enthusiastic and results-driven software developer.</p>
-        <p>Passionate about building innovative solutions and leveraging technology to optimize processes</p>
+        <p>Hi, I'm Rudraksh Tripathi, an Enthusiastic and results-driven software developer. Passionate about building innovative solutions and leveraging technology to optimize processes.</p>
+       
         <p>My expertise spans across modern web technologies, cloud platforms, and AI/ML integration.</p>
         <p>Skilled in collaborating within dynamic teams and delivering impactful solutions.</p>
       </div>
