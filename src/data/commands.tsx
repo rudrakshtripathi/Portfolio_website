@@ -218,7 +218,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       <div className="space-y-4">
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
   <div className="flex justify-between items-start mb-2">
-    <div className="text-white font-medium">Top 10 Nationwide Hackathon – Visionary-Spaces</div>
+    <div className="text-white font-medium">Top 10 in Nationwide Hackathon – Visionary-Spaces</div>
     <div className="text-white text-sm">Sep 2025</div>
   </div>
   <div className="text-white text-sm mb-2">Reelcode Project-A-Thons</div>
