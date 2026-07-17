@@ -98,11 +98,56 @@ export const commands: { [key: string]: () => React.ReactNode } = {
   ),
 
   projects: () => (
+   
     <div className="space-y-4">
       <div className="text-white font-semibold flex items-center">
         <Briefcase className="w-4 h-4 mr-2" />
         Featured Projects
       </div>
+
+       <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+  <div className="text-white font-medium">
+    DevMind AI – Multi-Agent Developer Platform
+  </div>
+
+  <div className="text-white text-sm mt-1">
+    AI-powered developer platform that understands entire codebases using
+    semantic search. Features automated CI/CD pipeline generation,
+    vulnerability analysis, Retrieval-Augmented Generation (RAG),
+    asynchronous indexing, and intelligent developer assistance through
+    multi-agent workflows.
+  </div>
+
+  <div className="text-white text-xs mt-2">
+    Tech: FastAPI, LangGraph, Google Gemini, ChromaDB, Google AI Embeddings,
+    Python, RAG
+  </div>
+
+  <div className="mt-2 flex gap-4">
+    <a
+      href="https://dev-mind-ai--rudrakshtripath.replit.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#00FF00] hover:text-white transition-colors text-xs"
+    >
+      🌐 Live Demo
+    </a>
+
+    <a
+      href="https://github.com/rudrakshtripathi/DevMind_AI"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#00FF00] hover:text-white transition-colors text-xs"
+    >
+      💻 GitHub
+    </a>
+  </div>
+</div>
+
+
+
+
+      
       <div className="space-y-4">
       <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
       <div className="text-white font-medium">CyberPaste – Secure AI-Powered Pastebin</div>
@@ -120,7 +165,57 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       </a>
     </div>
   </div>
+</div>\
+
+
+      <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+  <div className="text-white font-medium">Optimized College Timetable Generator</div>
+  <div className="text-white text-sm mt-1">
+    Intelligent timetable generation system that automatically schedules
+    professors, classrooms, and subjects while satisfying scheduling
+    constraints. Uses optimization algorithms to minimize conflicts,
+    maximize resource utilization, and generate balanced academic
+    timetables in seconds.
+  </div>
+  <div className="text-white text-xs mt-2">
+    Tech: React, FastAPI, Python, PostgreSQL, Genetic Algorithm, Optimization Algorithms
+  </div>
+  <div className="mt-2">
+    <a
+      href="https://github.com/rudrakshtripathi/Optimized-Professor-Timetable-Generator-using-Nature-Inspired-Algorithms"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#00FF00] hover:text-white transition-colors text-xs"
+    >
+      💻 GitHub
+    </a>
+  </div>
 </div>
+
+<div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+  <div className="text-white font-medium">LLM-Powered Notes App with Podcast Synthesis</div>
+  <div className="text-white text-sm mt-1">
+    AI-powered note-taking platform that transforms uploaded PDFs into
+    conversational podcasts using Retrieval-Augmented Generation (RAG).
+    Supports semantic document search, contextual Q&A, multi-document
+    understanding, and sub-2-second intelligent retrieval.
+  </div>
+  <div className="text-white text-xs mt-2">
+    Tech: Next.js, FastAPI, LangChain, ChromaDB, Google Gemini, TypeScript, Python
+  </div>
+  <div className="mt-2">
+    <a
+      href="https://github.com/tomlin7/notebook"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#00FF00] hover:text-white transition-colors text-xs"
+    >
+      💻 GitHub
+    </a>
+  </div>
+</div>
+
+      
 
       <div className="space-y-4">
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
