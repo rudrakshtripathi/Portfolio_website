@@ -165,7 +165,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
       </a>
     </div>
   </div>
-</div>\
+</div>
 
 
       <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
@@ -306,6 +306,38 @@ export const commands: { [key: string]: () => React.ReactNode } = {
 
   experience: () => (
     <div className="space-y-4">
+        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+    <div className="flex justify-between items-start mb-2">
+      <div className="text-white font-medium">AI Research Intern</div>
+      <div className="text-white text-sm">May 2026 - Present</div>
+    </div>
+    <div className="text-white text-sm mb-2">
+      Indian Institute of Technology Jammu
+    </div>
+    <div className="text-white text-sm space-y-1">
+      <div>• Engineered DevMind AI, a multi-agent developer platform with semantic codebase understanding, automated CI/CD generation, and vulnerability analysis.</div>
+      <div>• Built a production-grade Retrieval-Augmented Generation (RAG) pipeline using ChromaDB and Google AI Embeddings, enabling sub-3-second semantic code retrieval.</div>
+      <div>• Developed scalable FastAPI backend services with asynchronous indexing and intelligent developer workflows.</div>
+    </div>
+  </div>
+
+  <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
+    <div className="flex justify-between items-start mb-2">
+      <div className="text-white font-medium">Artificial Intelligence Intern</div>
+      <div className="text-white text-sm">Nov 2023 - Jan 2024</div>
+    </div>
+    <div className="text-white text-sm mb-2">
+      Corizo Edutech Pvt. Ltd.
+    </div>
+    <div className="text-white text-sm space-y-1">
+      <div>• Built supervised machine learning models for cardiovascular disease prediction using feature engineering and cross-validation.</div>
+      <div>• Developed a K-Means clustering pipeline for Spotify audio analysis to uncover listening patterns and improve prediction reliability.</div>
+      <div>• Improved model performance through iterative feature engineering, evaluation, and optimization techniques.</div>
+    </div>
+  </div>
+
+ 
+      
       <div className="text-white font-semibold flex items-center">
         <Briefcase className="w-4 h-4 mr-2" />
         Work Experience
