@@ -406,41 +406,85 @@ export const commands: { [key: string]: () => React.ReactNode } = {
     </div>
   ),
 
-  certifications: () => (
-    <div className="space-y-4">
-      <div className="text-white font-semibold flex items-center">
-        <Award className="w-4 h-4 mr-2" />
-        Certifications & Achievements
-      </div>
-      <div className="space-y-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Goldman Sachs - Software Engineering</div>
-            <div className="text-white text-xs">Forage • Feb 2025</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Microsoft Azure Cloud Course</div>
-            <div className="text-white text-xs">Microsoft • May 2024</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Tata Group - Cybersecurity Analyst</div>
-            <div className="text-white text-xs">Forage• May 2024</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Artificial Intelligence Intern</div>
-            <div className="text-white text-xs">Corizo Edutech • Jan 2023</div>
-          </div>
-        </div>
-        <div className="mt-4 p-3 bg-gray-900/50 rounded border border-green-400/20">
-          <div className="text-white text-sm mb-2">Achievements:</div>
-          <div className="text-white text-sm space-y-1">
-            <div>🏆 selected for Phase 2 of the Vultr Hackathon organized by GeeksforGeeks 🎉</div>
-            <div>🌟 intern at the International Model United Nations (IMUN)!</div>
-          </div>
-        </div>
-      </div>
+ certifications: () => (
+  <div className="space-y-4">
+    <div className="text-white font-semibold flex items-center">
+      <Award className="w-4 h-4 mr-2" />
+      Certifications & Achievements
     </div>
-  ),
+
+    <div className="space-y-3">
+
+      {/* Certifications */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+        <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+          <div className="text-white text-sm font-medium">
+            Goldman Sachs – Software Engineering
+          </div>
+          <div className="text-white text-xs">
+            Forage • Feb 2025
+          </div>
+        </div>
+
+        <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+          <div className="text-white text-sm font-medium">
+            Tata Group – Cybersecurity Analyst
+          </div>
+          <div className="text-white text-xs">
+            Forage • May 2024
+          </div>
+        </div>
+
+        <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+          <div className="text-white text-sm font-medium">
+            Microsoft Azure Fundamentals
+          </div>
+          <div className="text-white text-xs">
+            Microsoft • May 2024
+          </div>
+        </div>
+
+        <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+          <div className="text-white text-sm font-medium">
+            Cybersecurity: Understand Threats & Prevent Attacks
+          </div>
+          <div className="text-white text-xs">
+            Alison • 2024
+          </div>
+        </div>
+
+        <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+          <div className="text-white text-sm font-medium">
+            Artificial Intelligence Intern
+          </div>
+          <div className="text-white text-xs">
+            Corizo Edutech • Jan 2024
+          </div>
+        </div>
+
+      </div>
+
+      {/* Achievements */}
+      <div className="mt-4 p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm mb-2 font-medium">
+          Achievements:
+        </div>
+
+        <div className="text-white text-sm space-y-2">
+          <div>🏆 Secured <span className="text-[#00FF00] font-medium">9th Place Nationally</span> at ReelCode Project-A-Thons 2025 for developing <strong>Visionary Spaces</strong>.</div>
+
+          <div>🥇 Awarded the <span className="text-[#00FF00] font-medium">Merit Award</span> at the international Bay2Bay Hacks 2025 for building an AI-powered wellness platform.</div>
+
+          <div>🚀 Selected as an <span className="text-[#00FF00] font-medium">AI Research Intern</span> at IIT Jammu, working on production-grade multi-agent AI systems and RAG pipelines.</div>
+
+          <div>🎯 Serving as <span className="text-[#00FF00] font-medium">Vice President</span> of the IEEE Student Branch, BIT Mesra (Off Campus Deoghar).</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+),
 
   leadership: () => (
     <div className="space-y-4">
