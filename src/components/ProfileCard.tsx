@@ -13,15 +13,18 @@ const PortfolioCardLayout: React.FC = () => {
     <div className="flex min-h-screen bg-gray-950 text-green-400 overflow-hidden">
       
       {/* Left Side - 3D ID Card + Name */}
-      <div className="w-full max-w-sm bg-gray-900 border-r border-green-400/20 flex flex-col items-center justify-center px-4 py-10">
-        <div className="w-full aspect-[3/4] rounded-lg overflow-hidden mb-6">
-          <spline-viewer url="https://prod.spline.design/ouseHh09WkhkBVGL/scene.splinecode" />
-        </div>
-        <div className="text-center">
-          <h1 className="text-xl font-bold text-green-400">Rudraksh Tripathi</h1>
-          <p className="text-green-300/70 text-sm">Full Stack Developer</p>
-        </div>
-      </div>
+      <div className="w-full max-w-md bg-gray-900 border-r border-green-400/20 flex flex-col items-center justify-center px-2 py-6">
+  <div className="w-full aspect-[3/4] rounded-lg overflow-hidden mb-6">
+    <spline-viewer
+      url="https://prod.spline.design/ouseHh09WkhkBVGL/scene.splinecode"
+      style={{ width: '100%', height: '100%' }}
+    />
+  </div>
+  <div className="text-center">
+    <h1 className="text-xl font-bold text-green-400">Rudraksh Tripathi</h1>
+    <p className="text-green-300/70 text-sm">Full Stack Developer</p>
+  </div>
+</div>
 
       {/* Right Side - Terminal */}
       <div className="flex-1 bg-black text-green-400 font-mono p-6 overflow-auto">
