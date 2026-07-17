@@ -14,17 +14,20 @@ const PortfolioCardLayout: React.FC = () => {
       
       {/* Left Side - 3D ID Card + Name */}
       <div className="w-full max-w-md bg-gray-900 border-r border-green-400/20 flex flex-col items-center justify-center px-2 py-6">
-  <div className="w-full aspect-[3/4] rounded-lg overflow-hidden mb-6">
-    <spline-viewer
-      url="https://prod.spline.design/ouseHh09WkhkBVGL/scene.splinecode"
-      style={{ width: '100%', height: '100%' }}
-    />
-  </div>
-  <div className="text-center">
-    <h1 className="text-xl font-bold text-green-400">Rudraksh Tripathi</h1>
-    <p className="text-green-300/70 text-sm">Full Stack Developer</p>
-  </div>
-</div>
+        <div
+          style={{ width: '380px', height: '500px' }}
+          className="rounded-lg overflow-hidden mb-6"
+        >
+          <spline-viewer
+            url="https://prod.spline.design/ouseHh09WkhkBVGL/scene.splinecode"
+            style={{ width: '100%', height: '100%', display: 'block' }}
+          />
+        </div>
+        <div className="text-center">
+          <h1 className="text-xl font-bold text-green-400">Rudraksh Tripathi</h1>
+          <p className="text-green-300/70 text-sm">Software Developer</p>
+        </div>
+      </div>
 
       {/* Right Side - Terminal */}
       <div className="flex-1 bg-black text-green-400 font-mono p-6 overflow-auto">
@@ -32,7 +35,6 @@ const PortfolioCardLayout: React.FC = () => {
           <span>rudraksh@portfolio:~</span>
           <span>{new Date().toLocaleString('en-GB')}</span>
         </div>
-
         <div className="text-green-300/90 leading-relaxed whitespace-pre-wrap">
           Welcome to my interactive 'AI powered' portfolio terminal!  
           <br />
@@ -50,4 +52,3 @@ const PortfolioCardLayout: React.FC = () => {
 };
 
 export default PortfolioCardLayout;
-
