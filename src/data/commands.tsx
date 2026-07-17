@@ -342,10 +342,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
 
  
       
-      <div className="text-white font-semibold flex items-center">
-        <Briefcase className="w-4 h-4 mr-2" />
-        Work Experience
-      </div>
+     
       <div className="space-y-4">
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
   <div className="flex justify-between items-start mb-2">
@@ -383,17 +380,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             <div>• Promoted Internshala’s initiatives on campus and assisted students in accessing internship opportunities.</div>
           </div>
         </div>
-        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
-          <div className="flex justify-between items-start mb-2">
-            <div className="text-white font-medium">Artificial Intelligence Intern</div>
-            <div className="text-white text-sm">Nov 2023 - Jan 2024</div>
-          </div>
-          <div className="text-white text-sm mb-2">Corizo Edutech Private</div>
-          <div className="text-white text-sm space-y-1">
-            <div>• Implemented machine learning algorithms to predict Cardiovascular Diseases.</div>
-            <div>• Implemented machine learning algorithms for Spotify songs genre segmentation</div>
-          </div>
-        </div>
+       
       </div>
     </div>
   ),
