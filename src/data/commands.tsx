@@ -306,6 +306,10 @@ export const commands: { [key: string]: () => React.ReactNode } = {
 
   experience: () => (
     <div className="space-y-4">
+       <div className="text-white font-semibold flex items-center">
+        <Briefcase className="w-4 h-4 mr-2" />
+        Work Experience
+      </div>
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
     <div className="flex justify-between items-start mb-2">
       <div className="text-white font-medium">AI Research Intern</div>
