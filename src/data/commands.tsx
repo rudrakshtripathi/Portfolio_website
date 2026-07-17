@@ -183,7 +183,10 @@ export const commands: { [key: string]: () => React.ReactNode } = {
   <div className="mt-2">
     <a
       href="https://github.com/rudrakshtripathi/Optimized-Professor-Timetable-Generator-using-Nature-Inspired-Algorithms"
-      target="_blank"
+      target="_blank" <div className="text-white font-semibold flex items-center">
+        <Briefcase className="w-4 h-4 mr-2" />
+        Work Experience
+      </div>
       rel="noopener noreferrer"
       className="text-[#00FF00] hover:text-white transition-colors text-xs"
     >
@@ -342,25 +345,8 @@ export const commands: { [key: string]: () => React.ReactNode } = {
 
  
       
-      <div className="text-white font-semibold flex items-center">
-        <Briefcase className="w-4 h-4 mr-2" />
-        Work Experience
-      </div>
-      <div className="space-y-4">
-        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
-  <div className="flex justify-between items-start mb-2">
-    <div className="text-white font-medium">Top 10 in Nationwide Hackathon – Visionary-Spaces</div>
-    <div className="text-white text-sm">Sep 2025</div>
-  </div>
-  <div className="text-white text-sm mb-2">Reelcode Project-A-Thons</div>
-  <div className="text-white text-sm space-y-1">
-    <div>• Secured a place in the Top 10 among nationwide participants with the project "Visionary-Spaces".</div>
-    <div>• Built a solution combining creativity and technology to design impactful digital spaces.</div>
-    <div>• Gained valuable experience by competing with talented peers and learning from diverse approaches.</div>
-     <div>• Overcame challenges like brainstorming innovative ideas, late-night debugging, and refining the final presentation.</div>
-  </div>
-</div>
-
+      
+    
         <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
           <div className="flex justify-between items-start mb-2">
             <div className="text-white font-medium">Campus Ambassador</div>
@@ -383,76 +369,112 @@ export const commands: { [key: string]: () => React.ReactNode } = {
             <div>• Promoted Internshala’s initiatives on campus and assisted students in accessing internship opportunities.</div>
           </div>
         </div>
-        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
-          <div className="flex justify-between items-start mb-2">
-            <div className="text-white font-medium">Artificial Intelligence Intern</div>
-            <div className="text-white text-sm">Nov 2023 - Jan 2024</div>
-          </div>
-          <div className="text-white text-sm mb-2">Corizo Edutech Private</div>
-          <div className="text-white text-sm space-y-1">
-            <div>• Implemented machine learning algorithms to predict Cardiovascular Diseases.</div>
-            <div>• Implemented machine learning algorithms for Spotify songs genre segmentation</div>
-          </div>
-        </div>
+       
       </div>
     </div>
   ),
 
   education: () => (
-    <div className="space-y-4">
-      <div className="text-white font-semibold flex items-center">
-        <GraduationCap className="w-4 h-4 mr-2" />
-        Education
-      </div>
-      <div className="space-y-3">
-        <div className="p-4 bg-gray-900/50 rounded border border-green-400/20">
-          <div className="flex justify-between items-start mb-2">
-            <div className="text-white font-medium">Bachelors of Computer Science</div>
-            <div className="text-white text-sm">2023 - Present</div>
-          </div>
-          <div className="text-white text-sm mb-2">Birla Institute of Technology</div>
-          <div className="text-white text-sm">
-             Computer Science & Engineering 
-          </div>
-        </div>
-      </div>
-    </div>
-  ),
+   <div className="space-y-3">
 
-  certifications: () => (
-    <div className="space-y-4">
-      <div className="text-white font-semibold flex items-center">
-        <Award className="w-4 h-4 mr-2" />
-        Certifications & Achievements
+  {/* Achievements */}
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+    <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+      <div className="text-white text-sm font-medium">
+        🏆 9th Place - ReelCode Project-A-Thons 2025
       </div>
-      <div className="space-y-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Goldman Sachs - Software Engineering</div>
-            <div className="text-white text-xs">Forage • Feb 2025</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Microsoft Azure Cloud Course</div>
-            <div className="text-white text-xs">Microsoft • May 2024</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Tata Group - Cybersecurity Analyst</div>
-            <div className="text-white text-xs">Forage• May 2024</div>
-          </div>
-          <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
-            <div className="text-white text-sm font-medium">Artificial Intelligence Intern</div>
-            <div className="text-white text-xs">Corizo Edutech • Jan 2023</div>
-          </div>
-        </div>
-        <div className="mt-4 p-3 bg-gray-900/50 rounded border border-green-400/20">
-          <div className="text-white text-sm mb-2">Achievements:</div>
-          <div className="text-white text-sm space-y-1">
-            <div>🏆 selected for Phase 2 of the Vultr Hackathon organized by GeeksforGeeks 🎉</div>
-            <div>🌟 intern at the International Model United Nations (IMUN)!</div>
-          </div>
-        </div>
+      <div className="text-white text-xs">
+        National Finalist • 2025
       </div>
     </div>
+
+    <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+      <div className="text-white text-sm font-medium">
+        🥇 Merit Award - Bay2Bay Hacks 2025
+      </div>
+      <div className="text-white text-xs">
+        International Hackathon • 2025
+      </div>
+    </div>
+
+    <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+      <div className="text-white text-sm font-medium">
+        🚀 AI Research Intern
+      </div>
+      <div className="text-white text-xs">
+        IIT Jammu • 2026
+      </div>
+    </div>
+
+    <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+      <div className="text-white text-sm font-medium">
+        🎯 Vice President - IEEE Student Branch
+      </div>
+      <div className="text-white text-xs">
+        BIT Mesra (Off Campus Deoghar)
+      </div>
+    </div>
+
+  </div>
+
+  {/* Certifications */}
+  <div className="mt-6">
+    <div className="text-white font-semibold mb-3">
+      Certifications
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+      <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm font-medium">
+          Goldman Sachs – Software Engineering
+        </div>
+        <div className="text-white text-xs">
+          Forage • Feb 2025
+        </div>
+      </div>
+
+      <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm font-medium">
+          Tata Group – Cybersecurity Analyst
+        </div>
+        <div className="text-white text-xs">
+          Forage • May 2024
+        </div>
+      </div>
+
+      <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm font-medium">
+          Microsoft Azure Fundamentals
+        </div>
+        <div className="text-white text-xs">
+          Microsoft
+        </div>
+      </div>
+
+      <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm font-medium">
+          Cybersecurity: Understand Threats & Prevent Attacks
+        </div>
+        <div className="text-white text-xs">
+          Alison
+        </div>
+      </div>
+
+      <div className="p-3 bg-gray-900/50 rounded border border-green-400/20">
+        <div className="text-white text-sm font-medium">
+          AI & Machine Learning Internship
+        </div>
+        <div className="text-white text-xs">
+          Corizo Edutech
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
   ),
 
   leadership: () => (
