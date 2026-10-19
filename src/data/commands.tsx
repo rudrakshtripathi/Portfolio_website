@@ -125,7 +125,7 @@ export const commands: { [key: string]: () => React.ReactNode } = {
 
   <div className="mt-2 flex gap-4">
     <a
-      href="https://dev-mind-ai--rudrakshtripath.replit.app/"
+      href="https://devmindai-mu.vercel.app/"
       target="_blank"
       rel="noopener noreferrer"
       className="text-[#00FF00] hover:text-white transition-colors text-xs"
